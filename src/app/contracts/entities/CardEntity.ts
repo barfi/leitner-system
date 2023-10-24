@@ -17,9 +17,9 @@ export type CardEntity = BaseEntity & {
   readonly answer: string
 
   /**
-   * Additional materials link
+   * External resource url
    */
-  readonly link: string | null
+  readonly url: string | null
 
   /**
    * Scores
@@ -40,7 +40,7 @@ export const cardEntityKeys: ReadonlyArray<keyof CardEntity> = [
   ...baseEntityKeys,
   'question',
   'answer',
-  'link',
+  'url',
   'scores',
   'scheduledAt'
 ]

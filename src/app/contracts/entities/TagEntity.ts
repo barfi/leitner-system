@@ -38,4 +38,3 @@ export const tagEntityKeys: ReadonlyArray<keyof TagEntity> = [
   'fgColor',
   'bgColor'
 ]
-

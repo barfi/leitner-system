@@ -9,12 +9,12 @@ import { type BaseEntity, baseEntityKeys } from './BaseEntity'
 export type CardTagsEntity = BaseEntity & {
 
   /**
-   * 
+   * Card entity id
    */
   cardId: UUID
 
   /**
-   * 
+   * Tag entity id
    */
   tagId: UUID
 
@@ -28,6 +28,3 @@ export const flashcardTagsEntityKeys: ReadonlyArray<keyof CardTagsEntity> = [
   'cardId',
   'tagId'
 ]
-
-
-

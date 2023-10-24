@@ -33,4 +33,3 @@ export type HEXColor = string & { __kind: 'Hex color' }
  * const score: ScorePoint[] = [0, 0.25, 0.5, 0.75, 1]
  */
 export type ScorePoint = number & { __kind: 'Score point' }
-
