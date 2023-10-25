@@ -1,4 +1,4 @@
-import type { ISO8601, ScorePoint } from '../common'
+import type { ISO8601, ScorePoint } from '../shared/BrandedPrimitives'
 import { type BaseEntity, baseEntityKeys } from './BaseEntity'
 
 /**

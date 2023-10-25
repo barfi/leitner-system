@@ -1,4 +1,4 @@
-import type { UUID, ISO8601 } from '../common'
+import type { UUID, ISO8601 } from '../shared/BrandedPrimitives'
 
 /**
  * Represents common fields of all entities

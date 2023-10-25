@@ -1,4 +1,4 @@
-import type { UUID } from '../common'
+import type { UUID } from '../shared/BrandedPrimitives'
 import { type BaseEntity, baseEntityKeys } from './BaseEntity'
 
 /**

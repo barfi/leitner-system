@@ -1,4 +1,4 @@
-import type { HEXColor } from '../common'
+import type { HEXColor } from '../shared/BrandedPrimitives'
 import { type BaseEntity, baseEntityKeys } from './BaseEntity'
 
 /**
