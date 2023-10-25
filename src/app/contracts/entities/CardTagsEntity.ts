@@ -23,7 +23,7 @@ export type CardTagsEntity = BaseEntity & {
 /**
  * Card tags entity keys
  */
-export const flashcardTagsEntityKeys: ReadonlyArray<keyof CardTagsEntity> = [
+export const cardTagsEntityKeys: ReadonlyArray<keyof CardTagsEntity> = [
   ...baseEntityKeys,
   'cardId',
   'tagId'
