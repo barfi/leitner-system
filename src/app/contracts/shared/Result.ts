@@ -1,7 +1,7 @@
 /**
  * Represents an abstract successful result
  */
-export type SuccessfullResult<T> = {
+type SuccessfullResult<T> = {
   isFailure: false
   value: T
 }
@@ -9,7 +9,7 @@ export type SuccessfullResult<T> = {
 /**
  * Represents an abstract failurefull result
  */
-export type FailurefullResult<T> = {
+type FailurefullResult<T> = {
   isFailure: true
   reason: T
 }
