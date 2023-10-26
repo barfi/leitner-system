@@ -9,22 +9,22 @@ export type TagEntity = BaseEntity & {
   /**
    * Title
    */
-  title: string
+  readonly title: string
 
   /**
    * Description
    */
-  description: string
+  readonly description: string
 
   /**
    * Foreground color
    */
-  fgColor: HEXColor
+  readonly fgColor: HEXColor
 
   /**
    * Background color
    */
-  bgColor: HEXColor
+  readonly bgColor: HEXColor
 
 }
 
