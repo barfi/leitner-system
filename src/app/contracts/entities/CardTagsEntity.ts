@@ -11,12 +11,12 @@ export type CardTagsEntity = BaseEntity & {
   /**
    * Card entity id
    */
-  cardId: UUID
+  readonly cardId: UUID
 
   /**
    * Tag entity id
    */
-  tagId: UUID
+  readonly tagId: UUID
 
 }
 
