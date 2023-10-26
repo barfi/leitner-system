@@ -8,17 +8,17 @@ export type BaseEntity = {
   /**
    * Unique identifier
    */
-  id: UUID
+  readonly id: UUID
 
   /**
    * Date of creation
    */
-  createdAt: ISO8601
+  readonly createdAt: ISO8601
 
   /**
    * Update date
    */
-  updatedAt: ISO8601
+  readonly updatedAt: ISO8601
 
 }
 
