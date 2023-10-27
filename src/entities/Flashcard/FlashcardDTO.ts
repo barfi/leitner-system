@@ -1,10 +1,10 @@
-import type { ISO8601, ScorePoint } from '../shared/BrandedPrimitives'
-import { type BaseEntity, baseEntityKeys } from './BaseEntity'
+import type { ISO8601, ScorePoint } from '../../shared'
+import { type EntityDTO, EntityDTOKeys } from '../Entity'
 
 /**
- * Represents card entity stored in the database
+ * Represents Flashcard entity DTO
  */
-export type CardEntity = BaseEntity & {
+export type FlashcardDTO = EntityDTO & {
 
   /**
    * Question
@@ -34,10 +34,10 @@ export type CardEntity = BaseEntity & {
 }
 
 /**
- * Card entity keys
+ * Flashcard DTO keys
  */
-export const cardEntityKeys: ReadonlyArray<keyof CardEntity> = [
-  ...baseEntityKeys,
+export const FlashcardDTOKeys: ReadonlyArray<keyof FlashcardDTO> = [
+  ...EntityDTOKeys,
   'question',
   'answer',
   'url',

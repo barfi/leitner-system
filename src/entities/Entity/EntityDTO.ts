@@ -1,9 +1,9 @@
-import type { UUID, ISO8601 } from '../shared/BrandedPrimitives'
+import type { UUID, ISO8601 } from '../../shared'
 
 /**
- * Represents common fields of all entities
+ * Represents common DTO fields of all entities
  */
-export type BaseEntity = {
+export type EntityDTO = {
 
   /**
    * Unique identifier
@@ -23,9 +23,9 @@ export type BaseEntity = {
 }
 
 /**
- * Base entity keys
+ * Entity DTO keys
  */
-export const baseEntityKeys: ReadonlyArray<keyof BaseEntity> = [
+export const EntityDTOKeys: ReadonlyArray<keyof EntityDTO> = [
   'id',
   'createdAt',
   'updatedAt'

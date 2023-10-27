@@ -1,10 +1,10 @@
-import type { HEXColor } from '../shared/BrandedPrimitives'
-import { type BaseEntity, baseEntityKeys } from './BaseEntity'
+import type { HEXColor } from '../../shared'
+import { type EntityDTO, EntityDTOKeys } from '../Entity'
 
 /**
- * Represents tag entity stored in the database
+ * Represents Tag entity DTO
  */
-export type TagEntity = BaseEntity & {
+export type TagDTO = EntityDTO & {
 
   /**
    * Title
@@ -29,10 +29,10 @@ export type TagEntity = BaseEntity & {
 }
 
 /**
- * Tag entity keys
+ * Tag DTO keys
  */
-export const tagEntityKeys: ReadonlyArray<keyof TagEntity> = [
-  ...baseEntityKeys,
+export const TagDTOKeys: ReadonlyArray<keyof TagDTO> = [
+  ...EntityDTOKeys,
   'title',
   'description',
   'fgColor',
